@@ -10,3 +10,7 @@ new_list = friends + new_friend
 new_list.sort()
 
 print(new_list)
+
+#alternative way, as given in course as example:
+#friends.extend(new_friend)
+#print(sorted(friends))
