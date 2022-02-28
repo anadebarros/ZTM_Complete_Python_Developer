@@ -16,4 +16,4 @@ for item in picture:
         print(" ", end ="")
       else:
         print("*", end ="")
-  print(" ")
+  print(" ") #need a new line after each row in list
