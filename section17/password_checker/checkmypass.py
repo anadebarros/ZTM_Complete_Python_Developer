@@ -35,7 +35,7 @@ def main(args):
                 f"Your password {password} has been hacked {count} times. You should probably change it.")
         else:
             print(f"You password {password} was not found")
-    return print("all good")
 
 
-main(sys.argv[1:])
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
